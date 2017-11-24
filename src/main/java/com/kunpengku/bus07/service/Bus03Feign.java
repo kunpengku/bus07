@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  *
  * @author fupeng.
  */
-@FeignClient(name = "bus05")
+@FeignClient(name = "bus03")
 public interface Bus03Feign {
 
     @RequestMapping("/bus")
